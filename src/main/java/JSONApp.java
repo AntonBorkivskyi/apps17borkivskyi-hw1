@@ -10,7 +10,7 @@ import java.util.List;
  * Created by Andrii_Rodionov on 1/3/2017.
  */
 public class JSONApp {
-    public static void main(String[] args) {
+    public static void main() {
         Json jYear = new JsonNumber(2);
         print(jYear); // 2
 
