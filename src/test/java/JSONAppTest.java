@@ -12,7 +12,7 @@ public class JSONAppTest {
     @Test
     public void testSessionResult() throws Exception {
         Json jsonObject = JSONApp.sessionResult();
-
+        JSONApp.main();
         String expectedJSON =
                 "{'name': 'Andrii', 'surname': 'Rodionov', 'year': 2, 'exams': [" +
                         "{'course': 'OOP', 'mark': 3, 'passed': true}," +
